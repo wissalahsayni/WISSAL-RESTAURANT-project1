@@ -8,7 +8,6 @@ A restaurant website homepage built with HTML and CSS as part of my front-end de
 - Navigation bar
 - Restaurant logo
 - Background image
-- Call-to-action buttons
 - Custom CSS styling
 - Hover effects
 
