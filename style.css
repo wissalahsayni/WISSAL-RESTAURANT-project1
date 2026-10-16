@@ -1,0 +1,168 @@
+
+/* ========== GENERAL ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* ========== HEADER / NAVBAR ========== */
+.header {
+  width: 100%;
+  padding: 10px 7%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo */
+.logo img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+/* Navigation links */
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #a200ff;
+}
+
+/* Navbar button */
+.nav-btn button {
+  background-color: #684b79;
+  color: #ffffff;
+  border: 1px solid #684b79;
+  padding: 10px 25px;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.nav-btn button:hover {
+  background-color: transparent;
+  color: #684b79;
+}
+
+/* ========== HOME SECTION ========== */
+.home {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 200px 7% 60px;
+
+  background-image: url("./images/restaurant.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color: white;
+}
+
+/* Home content */
+.home-content {
+  max-width: 650px;
+}
+
+.home-subtitle {
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+
+.home-content h1 {
+  font-size: 55px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.home-description {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #eeeeee;
+  margin-bottom: 30px;
+}
+
+/* Home button */
+.home-btn a {
+  display: inline-block;
+  background-color: #684b79;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 14px 28px;
+  transition: all 0.3s ease;
+}
+
+.home-btn a:hover {
+  background-color: #ffffff;
+  color: #684b79;
+}
+
+/* ========== PLANS SECTION ========== */
+
+.plans {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 30px;
+  padding: 80px 7%;
+  background-color: #f8f5fa;
+}
+
+.plan {
+  flex: 1;
+  padding: 40px 25px;
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.plan:hover {
+  transform: translateY(-8px);
+}
+
+.plan h2 {
+  color: #684b79;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.plan p {
+  color: #666666;
+  font-size: 15px;
+  line-height: 1.7;
+}
